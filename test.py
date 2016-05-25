@@ -1,4 +1,4 @@
-import trees
-myDat, labels = trees.createDataSet()
-print myDat
-print trees.calcShannonEnt(myDat)
+import treePlotter
+myTree = treePlotter.retrieveTree(0)
+print myTree
+treePlotter.createPlot(myTree)
